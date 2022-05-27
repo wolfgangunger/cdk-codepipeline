@@ -13,7 +13,7 @@ class AppDeployBootstrap(Stage):
 
         ecr_repo = EcrStack(
             self,
-            "EcrRepoStackBootstrap",
+            "EcrRepoStack",
             config=config,
             synthesizer=DefaultStackSynthesizer(),
         )

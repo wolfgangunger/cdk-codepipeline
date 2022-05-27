@@ -13,7 +13,7 @@ class ToolchainDeploy(Stage):
 
         ecr_repo = EcrStack(
             self,
-            "EcrRepoStackBootstrap",
+            "EcrRepoStack",
             config=config,
             synthesizer=DefaultStackSynthesizer(),
         )

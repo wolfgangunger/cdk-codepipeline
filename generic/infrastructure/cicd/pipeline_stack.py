@@ -129,8 +129,6 @@ class PipelineStack(Stack):
             dev_int_tests = self.get_dev_int_tests(
                 git_input, region, dev_account, synth_dev_account_role_arn
             )
-
-            ## add integration tests for dev
             if dev_int_tests != None:
                 dev_stage.add_post(dev_int_tests)
 
@@ -138,11 +136,10 @@ class PipelineStack(Stack):
             dev_acceptance_tests = self.get_dev_acceptance_tests(
                 git_input, region, dev_account, synth_dev_account_role_arn
             )
-
-            ## add acceptance tests for dev
             if dev_acceptance_tests != None:
                 dev_stage.add_post(dev_acceptance_tests)
 
+            # manual approval for QA
             dev_stage.add_post(pipelines.ManualApprovalStep("ApprovalQA"))
 
             ## QA boostrap deploy
@@ -173,7 +170,6 @@ class PipelineStack(Stack):
             qa_acceptance_tests = self.get_qa_acceptance_tests(
                 git_input, synth_qa_account_role_arn
             )
-
             if qa_acceptance_tests != None:
                 qa_stage.add_post(qa_acceptance_tests)
 
@@ -266,7 +262,7 @@ class PipelineStack(Stack):
     def get_lambda_tests_commands(self) -> list:
         commands = [
             "pip install -r requirements.txt && pip install -r requirements-dev.txt",
-            "pytest -vvvv -s generic/infrastructure/tests",
+            "pytest -vvvv -s infrastructure/lambdas/tests",
         ]
         return commands
 
