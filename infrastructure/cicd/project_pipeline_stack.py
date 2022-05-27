@@ -21,7 +21,7 @@ class ProjectPipelineStack(PipelineStack):
 
     ## method overwrites
     def get_infrastructure_unit_tests_commands(self) -> list:
-        ## add project specific tests
+        ## add project specific tests to command
         commands = [
             "pip install -r requirements.txt && pip install -r requirements-dev.txt",
             "pytest -vvvv -s infrastructure/tests",

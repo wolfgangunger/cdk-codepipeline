@@ -2,7 +2,6 @@ from constructs import Construct
 from aws_cdk import (
     Stack,
     aws_iam as iam,
-    aws_codepipeline as codepipeline,
     pipelines,
     aws_codebuild,
     Duration,
@@ -34,12 +33,7 @@ class PipelineStack(Stack):
         codestar_connection_arn = config.get("connection_arn")
         repo_owner = config.get("owner")
         repo = config.get("repo")
-        branch_name = config.get("development_branch")
 
-        # source_artifact = codepipeline.Artifact()
-        # cloud_assembly_artifact = codepipeline.Artifact()
-
-        # role by now created by WS1
         # synth_dev_account_role_arn = f"arn:aws:iam::{dev_account}:role/codebuild-role-from-toolchain-account"
         # synth_qa_account_role_arn = f"arn:aws:iam::{qa_account}:role/codebuild-role-from-toolchain-account"
         # synth_prod_account_role_arn = f"arn:aws:iam::{prod_account}:role/codebuild-role-from-toolchain-account"
@@ -338,8 +332,6 @@ class PipelineStack(Stack):
         )
         return tests
 
-    ## TODO: make like qa acceptance
-
     def get_dev_acceptance_tests_commands(self, region, dev_account) -> list:
         commands = [
             "pip install -r requirements.txt && pip install -r requirements-dev.txt",
@@ -366,8 +358,6 @@ class PipelineStack(Stack):
             ],
         )
         return tests
-
-    ## TODO: modify last command
 
     def get_qa_acceptance_tests_commands(self, qa_account_role_arn) -> list:
         commands = [
