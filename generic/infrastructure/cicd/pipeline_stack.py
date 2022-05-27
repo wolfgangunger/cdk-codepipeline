@@ -36,8 +36,8 @@ class PipelineStack(Stack):
         repo = config.get("repo")
         branch_name = config.get("development_branch")
 
-        source_artifact = codepipeline.Artifact()
-        cloud_assembly_artifact = codepipeline.Artifact()
+        # source_artifact = codepipeline.Artifact()
+        # cloud_assembly_artifact = codepipeline.Artifact()
 
         # role by now created by WS1
         # synth_dev_account_role_arn = f"arn:aws:iam::{dev_account}:role/cicd-codebuild-role-from-toolchain-account"
@@ -86,12 +86,7 @@ class PipelineStack(Stack):
 
         toolchain_stage = pipeline.add_stage(toolchain_app)
 
-        infrastructure_unit_tests = self.get_infrastructure_unit_tests(
-            git_input,
-            synth_dev_account_role_arn,
-            synth_qa_account_role_arn,
-            synth_prod_account_role_arn,
-        )
+        infrastructure_unit_tests = self.get_infrastructure_unit_tests(git_input)
 
         ## add unit tests for toolchain to run before toolchain
         if infrastructure_unit_tests != None:
@@ -240,37 +235,31 @@ class PipelineStack(Stack):
         ]
         return commands
 
-    def get_infrastructure_unit_tests(
-        self,
-        git_input,
-        synth_dev_account_role_arn,
-        synth_qa_account_role_arn,
-        synth_prod_account_role_arn,
-    ):
+    def get_infrastructure_unit_tests(self, git_input):
         infrastructure_unit_tests = pipelines.CodeBuildStep(
             "UnitTests",
             input=git_input,
             commands=self.get_infrastructure_unit_tests_commands(),
-            role_policy_statements=[
-                iam.PolicyStatement(
-                    actions=["sts:AssumeRole"],
-                    effect=iam.Effect.ALLOW,
-                    resources=[
-                        synth_dev_account_role_arn,
-                        synth_qa_account_role_arn,
-                        synth_prod_account_role_arn,
-                    ],
-                ),
-                iam.PolicyStatement(
-                    actions=["secretsmanager:GetSecretValue"],
-                    effect=iam.Effect.ALLOW,
-                    resources=["*"],
-                ),
-            ],
         )
         return infrastructure_unit_tests
 
     def get_infrastructure_unit_tests_commands(self) -> list:
+        commands = [
+            "pip install -r requirements.txt && pip install -r requirements-dev.txt",
+            "pytest -vvvv -s generic/infrastructure/tests",
+        ]
+        return commands
+
+    ####
+    def get_lambda_tests(self, git_input):
+        infrastructure_unit_tests = pipelines.CodeBuildStep(
+            "UnitTests",
+            input=git_input,
+            commands=self.get_lambda_tests_commands(),
+        )
+        return infrastructure_unit_tests
+
+    def get_lambda_tests_commands(self) -> list:
         commands = [
             "pip install -r requirements.txt && pip install -r requirements-dev.txt",
             "pytest -vvvv -s generic/infrastructure/tests",
