@@ -11,6 +11,20 @@ class ProjectPipelineStack(PipelineStack):
         config: dict = None,
         **kwargs,
     ):
-        super().__init__(scope, id, development_pipeline=development_pipeline, config=config,**kwargs)
+        super().__init__(
+            scope,
+            id,
+            development_pipeline=development_pipeline,
+            config=config,
+            **kwargs,
+        )
 
-     
+    ## method overwrites
+    def get_infrastructure_unit_tests_commands(self) -> list:
+        ## add project specific tests
+        commands = [
+            "pip install -r requirements.txt && pip install -r requirements-dev.txt",
+            "pytest -vvvv -s infrastructure/tests",
+            "pytest -vvvv -s generic/infrastructure/tests",
+        ]
+        return commands

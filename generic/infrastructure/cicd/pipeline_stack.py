@@ -273,8 +273,7 @@ class PipelineStack(Stack):
     def get_infrastructure_unit_tests_commands(self) -> list:
         commands = [
             "pip install -r requirements.txt && pip install -r requirements-dev.txt",
-            "pytest --cov=infrastructure --cov-branch --cov-report term-missing -vvvv -s infrastructure/tests",
-            "pytest --cov=infrastructure --cov-branch --cov-report term-missing -vvvv -s generic/infrastructure/tests",
+            "pytest -vvvv -s generic/infrastructure/tests",
         ]
         return commands
 
