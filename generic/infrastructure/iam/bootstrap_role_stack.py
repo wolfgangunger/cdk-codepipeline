@@ -1,24 +1,23 @@
 from constructs import Construct
-from aws_cdk import(
+from aws_cdk import (
     Stack,
 )
 from generic.infrastructure.iam.bootstrap_role_construct import BootstrapRole
 
-class BootstrapRoleStack(Stack):
 
+class BootstrapRoleStack(Stack):
     def __init__(
-        self, 
+        self,
         scope: Construct,
         id: str,
-        account : str,
+        toolchain_account: str,
+        account: str,
         **kwargs,
-    ) -> None:   
+    ) -> None:
         super().__init__(scope, id, **kwargs)
 
         BootstrapRole(
             self,
             f"{account}-role",
+            toolchain_account,
         )
-
-
-
