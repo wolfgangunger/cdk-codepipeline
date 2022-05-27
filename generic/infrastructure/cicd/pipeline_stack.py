@@ -162,7 +162,7 @@ class PipelineStack(Stack):
 
             ## QA acceptance tests
             qa_acceptance_tests = self.get_qa_acceptance_tests(
-                git_input, synth_qa_account_role_arn
+                git_input, qa_account, synth_qa_account_role_arn
             )
             if qa_acceptance_tests != None:
                 qa_stage.add_post(qa_acceptance_tests)
@@ -340,7 +340,7 @@ class PipelineStack(Stack):
         ]
         return commands
 
-    def get_qa_acceptance_tests(self, git_input, qa_account_role_arn):
+    def get_qa_acceptance_tests(self, git_input, qa_account, qa_account_role_arn):
         tests = pipelines.CodeBuildStep(
             "AcceptanceTests",
             input=git_input,
@@ -348,7 +348,7 @@ class PipelineStack(Stack):
                 build_image=aws_codebuild.LinuxBuildImage.AMAZON_LINUX_2_3,
                 privileged=True,
             ),
-            commands=self.get_qa_acceptance_tests_commands(qa_account_role_arn),
+            commands=self.get_qa_acceptance_tests_commands(qa_account),
             role_policy_statements=[
                 iam.PolicyStatement(
                     actions=["sts:AssumeRole"],
@@ -359,14 +359,10 @@ class PipelineStack(Stack):
         )
         return tests
 
-    def get_qa_acceptance_tests_commands(self, qa_account_role_arn) -> list:
+    def get_qa_acceptance_tests_commands(self, qa_account) -> list:
         commands = [
-            "pip install -r requirements.txt",
-            f'TEMP_CREDS=$(aws sts assume-role --role-arn {qa_account_role_arn} --role-session-name "acceptance-test")',
-            "export TEMP_CREDS",
-            'export ACCESS_KEY_ID=$(echo "${TEMP_CREDS}" | jq -r ".Credentials.AccessKeyId")',
-            'export SECRET_ACCESS_KEY_ID=$(echo "${TEMP_CREDS}" | jq -r ".Credentials.SecretAccessKey")',
-            'export TOKEN=$(echo "${TEMP_CREDS}" | jq -r ".Credentials.SessionToken")',
-            'AWS_ACCESS_KEY_ID="${ACCESS_KEY_ID}" AWS_SECRET_ACCESS_KEY="${SECRET_ACCESS_KEY_ID}" AWS_SESSION_TOKEN="${TOKEN}" pytest -vvvv -s tests/acceptance',
+            "pip install -r requirements.txt && pip install -r requirements-dev.txt",
+            "chmod 777 tests/acceptance/tests.sh",
+            f"tests/acceptance/tests.sh {qa_account}",
         ]
         return commands
