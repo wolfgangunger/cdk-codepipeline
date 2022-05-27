@@ -34,13 +34,20 @@ class PipelineStack(Stack):
         repo_owner = config.get("owner")
         repo = config.get("repo")
 
-        # synth_dev_account_role_arn = f"arn:aws:iam::{dev_account}:role/codebuild-role-from-toolchain-account"
-        # synth_qa_account_role_arn = f"arn:aws:iam::{qa_account}:role/codebuild-role-from-toolchain-account"
-        # synth_prod_account_role_arn = f"arn:aws:iam::{prod_account}:role/codebuild-role-from-toolchain-account"
+        synth_dev_account_role_arn = (
+            f"arn:aws:iam::{dev_account}:role/codebuild-role-from-toolchain-account"
+        )
 
-        synth_dev_account_role_arn = f"arn:aws:iam::{dev_account}:role/caedge-cicd-simulation-codebuild-role-from-toolchain-account"
-        synth_qa_account_role_arn = f"arn:aws:iam::{qa_account}:role/caedge-cicd-simulation-codebuild-role-from-toolchain-account"
-        synth_prod_account_role_arn = f"arn:aws:iam::{prod_account}:role/caedge-cicd-simulation-codebuild-role-from-toolchain-account"
+        synth_qa_account_role_arn = (
+            f"arn:aws:iam::{qa_account}:role/codebuild-role-from-toolchain-account"
+        )
+        synth_prod_account_role_arn = (
+            f"arn:aws:iam::{prod_account}:role/codebuild-role-from-toolchain-account"
+        )
+
+        # synth_dev_account_role_arn = f"arn:aws:iam::{dev_account}:role/caedge-cicd-simulation-codebuild-role-from-toolchain-account"
+        # synth_qa_account_role_arn = f"arn:aws:iam::{qa_account}:role/caedge-cicd-simulation-codebuild-role-from-toolchain-account"
+        # synth_prod_account_role_arn = f"arn:aws:iam::{prod_account}:role/caedge-cicd-simulation-codebuild-role-from-toolchain-account"
 
         # creating the pipline with  synch action
         git_input = pipelines.CodePipelineSource.connection(
@@ -281,8 +288,6 @@ class PipelineStack(Stack):
         )
         return dev_int_tests
 
-    ### TODO: put simple integration tests from another project ex: creation of s3 bucket
-
     def get_dev_int_tests_commands(
         self, region, dev_account, dev_account_role_arn
     ) -> list:
@@ -297,7 +302,7 @@ class PipelineStack(Stack):
             'export ACCESS_KEY_ID=$(echo "${TEMP_CREDS}" | jq -r ".Credentials.AccessKeyId")',
             'export SECRET_ACCESS_KEY_ID=$(echo "${TEMP_CREDS}" | jq -r ".Credentials.SecretAccessKey")',
             'export TOKEN=$(echo "${TEMP_CREDS}" | jq -r ".Credentials.SessionToken")',
-            'AWS_ACCESS_KEY_ID="${ACCESS_KEY_ID}" AWS_SECRET_ACCESS_KEY="${SECRET_ACCESS_KEY_ID}" AWS_SESSION_TOKEN="${TOKEN}" pytest --cov=infrastructure --cov-branch --cov-report term-missing -vvvv -s tests/integration/',
+            'AWS_ACCESS_KEY_ID="${ACCESS_KEY_ID}" AWS_SECRET_ACCESS_KEY="${SECRET_ACCESS_KEY_ID}" AWS_SESSION_TOKEN="${TOKEN}" pytest -vvvv -s tests/integration/',
         ]
         return commands
 
