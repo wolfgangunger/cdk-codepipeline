@@ -257,7 +257,7 @@ class PipelineStack(Stack):
     ####
     def get_lambda_tests(self, git_input):
         infrastructure_unit_tests = pipelines.CodeBuildStep(
-            "UnitTests",
+            "LambdaTests",
             input=git_input,
             commands=self.get_lambda_tests_commands(),
         )
