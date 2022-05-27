@@ -40,9 +40,9 @@ class PipelineStack(Stack):
         # cloud_assembly_artifact = codepipeline.Artifact()
 
         # role by now created by WS1
-        # synth_dev_account_role_arn = f"arn:aws:iam::{dev_account}:role/cicd-codebuild-role-from-toolchain-account"
-        # synth_qa_account_role_arn = f"arn:aws:iam::{qa_account}:role/cicd-codebuild-role-from-toolchain-account"
-        # synth_prod_account_role_arn = f"arn:aws:iam::{prod_account}:role/cicd-codebuild-role-from-toolchain-account"
+        # synth_dev_account_role_arn = f"arn:aws:iam::{dev_account}:role/codebuild-role-from-toolchain-account"
+        # synth_qa_account_role_arn = f"arn:aws:iam::{qa_account}:role/codebuild-role-from-toolchain-account"
+        # synth_prod_account_role_arn = f"arn:aws:iam::{prod_account}:role/codebuild-role-from-toolchain-account"
 
         synth_dev_account_role_arn = f"arn:aws:iam::{dev_account}:role/caedge-cicd-simulation-codebuild-role-from-toolchain-account"
         synth_qa_account_role_arn = f"arn:aws:iam::{qa_account}:role/caedge-cicd-simulation-codebuild-role-from-toolchain-account"
@@ -292,8 +292,9 @@ class PipelineStack(Stack):
     def get_dev_int_tests_commands(
         self, region, dev_account, dev_account_role_arn
     ) -> list:
+        ### setting temp credentials to access stage account
         commands = [
-            "pip install -r requirements.txt",
+            "pip install -r requirements.txt && pip install -r requirements-dev.txt",
             "docker ps",
             f"REGION={region}",
             f"ACCOUNT_ID={dev_account}",
@@ -341,7 +342,7 @@ class PipelineStack(Stack):
 
     def get_dev_acceptance_tests_commands(self, region, dev_account) -> list:
         commands = [
-            "pip install -r requirements.txt",
+            "pip install -r requirements.txt && pip install -r requirements-dev.txt",
             "chmod 777 tests/acceptance/tests.sh",
             f"tests/acceptance/tests.sh {dev_account}",
         ]

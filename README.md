@@ -20,10 +20,11 @@ tests/integration
 create codestar connection in AWS Toolchain Account ( if you want to use code star. otherwise you have to configure your Github in the source )
 ### cdk.json
 adapt the cdk.json for your accounts, also codestar connection url
+adapt branch names etc
 ### write and add your stacks
 create your own stacks and add to infrastructure folder, add to AppDeploy, write tests
 ### deploy the roles to the stage accounts
-
+deploy the 3 roles to dev, qa and prod
 #### bootstrap
 bootstrap the toolchain & stage accounts
 with toolchain credentials
@@ -36,9 +37,10 @@ cdk bootstrap --cloudformation-execution-policies arn:aws:iam::aws:policy/Admini
 cdk bootstrap --cloudformation-execution-policies arn:aws:iam::aws:policy/AdministratorAccess --trust 803379787620 aws://805448283132/eu-west-1
 
 
-### deploy the pipeline via cli  
-  
+### deploy the pipeline via cli    
 cdk deploy  cdk-pipeline  
+and
+cdk deploy cdk-pipeline-prod
   
 now the pipeline should be ready and will be triggered on any push to the repo  
 

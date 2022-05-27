@@ -19,8 +19,7 @@ qa_account: str = accounts["qa"]["account"]
 prod_account: str = accounts["prod"]["account"]
 
 
-### Bootstrap Stacks only to run in the first time.
-
+### Bootstrap Role Stacks only to run in the first time. Comment out after creation
 # iam role for pipeline deploy dev enviroment stacks
 BootstrapRoleStack(
     app,
@@ -31,7 +30,6 @@ BootstrapRoleStack(
         "region": region,
     },
 )
-
 # iam role for pipeline deploy qa enviroment stacks
 BootstrapRoleStack(
     app,
@@ -42,7 +40,6 @@ BootstrapRoleStack(
         "region": region,
     },
 )
-
 # iam role for pipeline deploy prod enviroment stacks
 BootstrapRoleStack(
     app,
@@ -68,7 +65,7 @@ ProjectPipelineStack(
 # ## Pipeline Prod
 # ProjectPipelineStack(
 #     app,
-#     "testExample-pipeline",
+#     "cdk-pipeline-prod",
 #     development_pipeline=False,
 #     env=accounts.get("tooling"),
 #     config={**config},
