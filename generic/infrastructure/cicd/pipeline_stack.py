@@ -51,7 +51,10 @@ class PipelineStack(Stack):
         # creating the pipline with  synch action
         git_input = pipelines.CodePipelineSource.connection(
             repo_string=f"{repo_owner}/{repo}",
-            branch=branch_name,
+            # branch=branch_name,
+            branch=config["development_branch"]
+            if development_pipeline
+            else config["production_branch"],
             connection_arn=codestar_connection_arn,
         )
         synth_step = self.get_synth_step(
@@ -86,16 +89,17 @@ class PipelineStack(Stack):
 
         toolchain_stage = pipeline.add_stage(toolchain_app)
 
-        infrastructure_unit_tests = self.get_infrastructure_unit_tests(git_input)
-
         ## add unit tests for toolchain to run before toolchain
+        infrastructure_unit_tests = self.get_infrastructure_unit_tests(git_input)
         if infrastructure_unit_tests != None:
             toolchain_stage.add_pre(infrastructure_unit_tests)
 
-        ### TODO:  infrastructure  lambda tests
+        ##  lambda tests
+        lambda_tests = self.get_lambda_tests(git_input)
+        if lambda_tests != None:
+            toolchain_stage.add_pre(lambda_tests)
 
         if development_pipeline:
-
             # Deploy bootstrap
             dev_app_bootstrap = AppDeployBootstrap(
                 self,

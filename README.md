@@ -22,6 +22,11 @@ npx cdk bootstrap     [--profile admin-profile-2]     --cloudformation-execution
 
 
 ## tests
-###infrastructure tests
+### infrastructure tests
+pytest -vvvv -s generic/infrastructure/tests
+pytest -vvvv -s infrastructure/tests
+### lambda tests 
+pytest -vvvv -s infrastructure/lambdas/tests
+
 
 

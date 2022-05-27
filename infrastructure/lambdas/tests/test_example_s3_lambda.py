@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # - Standard Library Imports -------------------------------------------------------------------------------------------
 from operator import index
-import os , sys
+import os, sys
 import json
 import unittest
 import boto3
@@ -19,12 +19,12 @@ FOLDER = os.path.abspath(os.path.join(os.path.dirname(__file__), r"../"))
 if FOLDER not in sys.path:
     sys.path.append(FOLDER)
 
-from infrastructure.lambdas.example_lambda import ExampleLambda   
-from lambda_src.example_s3.index import ExampleS3  
+from infrastructure.lambdas.example_lambda import ExampleLambda
+from lambda_src.example_s3.index import ExampleS3
 
 # - Defines ------------------------------------------------------------------------------------------------------------
 CDK_JSON = os.path.abspath(
-    os.path.join(os.path.dirname(__file__), r"../../cdk.json")
+    os.path.join(os.path.dirname(__file__), r"../../../cdk.json")
 )
 
 
@@ -50,7 +50,7 @@ CDK_JSON = os.path.abspath(
 #             "test-lambda-s3-stack",
 #             config=config
 #         )
-    
+
 #         # THEN
 #         stack_artifact = app.synth().get_stack_artifact(stack.artifact_id)
 #         stack_art_dict = stack_artifact.template
@@ -64,21 +64,19 @@ CDK_JSON = os.path.abspath(
 #         return json.dumps(stack_art_dict)
 
 
-
-## test that mocks the response of aws s3 bucket using moto library 
-## TODO: format this test 
+## test that mocks the response of aws s3 bucket using moto library
+## TODO: format this test
 @mock_s3
 def test_save():
-    s3 = boto3.resource('s3', region_name='us-east-1')
-    s3.create_bucket(Bucket='myS3bucket')
+    s3 = boto3.resource("s3", region_name="us-east-1")
+    s3.create_bucket(Bucket="myS3bucket")
 
-    instance = ExampleS3('test_name', 'test_value')
+    instance = ExampleS3("test_name", "test_value")
     instance.save()
 
-    body = s3.Object('myS3bucket', 'test_name').get()[
-        'Body'].read().decode("utf-8")
+    body = s3.Object("myS3bucket", "test_name").get()["Body"].read().decode("utf-8")
 
-    assert body == 'test_value'
+    assert body == "test_value"
 
 
 # - Main ---------------------------------------------------------------------------------------------------------------

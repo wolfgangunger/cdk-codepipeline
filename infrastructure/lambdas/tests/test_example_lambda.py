@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # - Standard Library Imports -------------------------------------------------------------------------------------------
 from operator import index
-import os , sys
+import os, sys
 import json
 import unittest
 
@@ -17,12 +17,12 @@ FOLDER = os.path.abspath(os.path.join(os.path.dirname(__file__), r"../"))
 if FOLDER not in sys.path:
     sys.path.append(FOLDER)
 
-from infrastructure.lambdas.example_lambda import ExampleLambda   
-from lambda_src.example.index import lambda_handler, multiply, sum   
+from infrastructure.lambdas.example_lambda import ExampleLambda
+from lambda_src.example.index import lambda_handler, multiply, sum
 
 # - Defines ------------------------------------------------------------------------------------------------------------
 CDK_JSON = os.path.abspath(
-    os.path.join(os.path.dirname(__file__), r"../../cdk.json")
+    os.path.join(os.path.dirname(__file__), r"../../../cdk.json")
 )
 
 # - Functions/Classes --------------------------------------------------------------------------------------------------
@@ -40,20 +40,15 @@ class TestLambdaStack(unittest.TestCase):
 
         # WHEN
         stack = ExampleLambda(
-            app,
-            "test-lambda-stack",
-            "test-lambda-stack",
-            config=config
+            app, "test-lambda-stack", "test-lambda-stack", config=config
         )
-    
+
         # THEN
         stack_artifact = app.synth().get_stack_artifact(stack.artifact_id)
         stack_art_dict = stack_artifact.template
 
         # CHECK
-        self.assertEqual(
-            True, isinstance(stack, ExampleLambda)
-        )
+        self.assertEqual(True, isinstance(stack, ExampleLambda))
         self.assertEqual(True, isinstance(stack, Stack))
         self.assertEqual(True, isinstance(stack_art_dict, dict))
         return json.dumps(stack_art_dict)
@@ -61,38 +56,36 @@ class TestLambdaStack(unittest.TestCase):
 
 class LambdaFunctionTests(unittest.TestCase):
 
-    #GIVEN
+    # GIVEN
     def setUp(self):
-        self.event = {"numbers":[3,5]}
+        self.event = {"numbers": [3, 5]}
         self.a = 3
         self.b = 5
 
-
     def test_lambda_handler(self):
 
-        #WHEN
-        result = lambda_handler(self.event,'')
-        #THEN
-        data = json.loads(result["body"])        
+        # WHEN
+        result = lambda_handler(self.event, "")
+        # THEN
+        data = json.loads(result["body"])
         expected_response = {"addition": 8, "multiplication": 15}
-        #CHECK
+        # CHECK
         self.assertEqual(data, expected_response)
-
 
     def test_sum(self):
 
-        #WHEN
-        result = sum(self.a,self.b)
-        #CHECK
+        # WHEN
+        result = sum(self.a, self.b)
+        # CHECK
         self.assertEqual(result, self.a + self.b)
-
 
     def test_func_multiply(self):
 
-        #WHEN
-        result = multiply(self.a,self.b)
-        #CHECK        
+        # WHEN
+        result = multiply(self.a, self.b)
+        # CHECK
         self.assertEqual(result, self.a * self.b)
+
 
 # - Main ---------------------------------------------------------------------------------------------------------------
 
