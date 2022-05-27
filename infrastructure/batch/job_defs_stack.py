@@ -1,7 +1,6 @@
 from aws_cdk import (
     Stack,
     CfnOutput,
-    Duration,
 )
 from constructs import Construct
 import aws_cdk.aws_iam as iam
@@ -62,20 +61,18 @@ class JobDefsStack(Stack):
 
         self.job_role = iam.Role(
             self,
-            "workflow-batch-job-role",
-            role_name="workflow-batch-job-role",
+            "batch-job-role-uw",
+            role_name="batch-job-role-wu",
             assumed_by=iam.ServicePrincipal("ecs-tasks.amazonaws.com"),
             inline_policies={
-                "workflow-batch-job-role-policy": iam.PolicyDocument(
-                    statements=policies
-                )
+                "batch-job-role-policy": iam.PolicyDocument(statements=policies)
             },
         )
 
         role_export1 = CfnOutput(
             self,
-            f"{id}-workflow-batch-job-role",
-            export_name=f"{id}-workflow-batch-job-role",
+            f"{id}-batch-job-role-uw",
+            export_name=f"{id}-batch-job-role-uw",
             value=self.job_role.role_arn,
         )
 
