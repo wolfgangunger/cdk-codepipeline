@@ -10,7 +10,6 @@ from aws_cdk import aws_batch as batch
 from generic.infrastructure.batch.jobdef_construct import JobDefConstruct
 
 
-
 class JobDefsStack(Stack):
     def __init__(
         self,
@@ -80,18 +79,11 @@ class JobDefsStack(Stack):
             value=self.job_role.role_arn,
         )
 
-
-
-        # print(
-        #     f"JobDefStack all_sensor_images for stage {current_stage}: {all_sensor_images}"
-        # )
         command = ["/bin/bash", "-c", "/home/mts/runAll.sh"]
         timeout = 300
         # replace the enviroment variables for your project
         environment = [
-            batch.CfnJobDefinition.EnvironmentProperty(
-                name="PARAM", value="VALUE"
-            ),
+            batch.CfnJobDefinition.EnvironmentProperty(name="PARAM", value="VALUE"),
         ]
 
         resource_requirements = [
@@ -103,7 +95,7 @@ class JobDefsStack(Stack):
         ]
 
         # image required, please replace with the project information
-        image :str = "image"
+        image: str = "image"
         JobDefConstruct(
             self,
             f"{id}-projectname-{image.replace('.', '-')}",

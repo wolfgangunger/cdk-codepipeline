@@ -31,7 +31,7 @@ class AppDeploy(Stage):
         # Job Definition Example
         jobdefs = JobDefsStack(
             self,
-            "job-defs",
+            "Job-Defs",
             "JobDefinitions",
             config,
         )
@@ -39,7 +39,7 @@ class AppDeploy(Stage):
         # lambda Stack example
         example_lambda = ExampleLambda(
             self,
-            "ExampleLambdaStack",
-            "ExampleLambdaDesciption",
+            "LambdaStack",
+            "LambdaDesciption",
             config=config,
         )

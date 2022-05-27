@@ -29,10 +29,6 @@ class JobDefConstruct(Construct):
         """
         super().__init__(scope, id, **kwargs)
 
-        # timeout_property = batch.CfnJobDefinition.TimeoutProperty(
-        #    attempt_duration_seconds=timeout
-        # )
-
         self.jobdefinition = batch.CfnJobDefinition(
             self,
             id=f"{id}-job-definition",

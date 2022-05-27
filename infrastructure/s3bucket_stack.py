@@ -4,15 +4,15 @@ from aws_cdk import (
     aws_s3 as s3,
 )
 
-class S3Stack(Stack):
 
+class S3Stack(Stack):
     def __init__(
-        self, 
+        self,
         scope: Construct,
         id: str,
         config: dict = None,
         **kwargs,
-    ) -> None:   
+    ) -> None:
         super().__init__(scope, id, **kwargs)
 
-        repo = s3.Bucket(self,"testBucket")
+        repo = s3.Bucket(self, "bucket-cdk-pipeline-project-wu")

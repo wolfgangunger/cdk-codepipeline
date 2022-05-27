@@ -4,15 +4,15 @@ from aws_cdk import (
     aws_ecr,
 )
 
-class EcrStack(Stack):
 
+class EcrStack(Stack):
     def __init__(
-        self, 
+        self,
         scope: Construct,
         id: str,
         config: dict = None,
         **kwargs,
-    ) -> None:   
+    ) -> None:
         super().__init__(scope, id, **kwargs)
 
-        repo = aws_ecr.Repository(self,"testRepo")
+        repo = aws_ecr.Repository(self, "ecr-repo-1")
