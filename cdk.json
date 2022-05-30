@@ -31,19 +31,19 @@
     "config": {
       "accounts": {
         "tooling": {
-          "account": "803379787620",
+          "account": "xxxxxxxxxxxx",
           "region": "eu-west-1"
         },
         "dev": {
-          "account": "805448283132",
+          "account": "xxxxxxxxxxxx",
           "region": "eu-west-1"
         },
         "qa": {
-          "account": "171962718870",
+          "account": "xxxxxxxxxxxx",
           "region": "eu-west-1"
         },
         "prod": {
-          "account": "624739841527",
+          "account": "xxxxxxxxxxxx",
           "region": "eu-west-1"
         }
       },
