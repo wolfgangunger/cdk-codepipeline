@@ -1,5 +1,9 @@
 # cdk-codepipeline
 cdk project with codepipeline to deploy aws resources to stage accounts
+https://github.com/wolfgangunger/cdk-codepipeline
+
+see also
+https://www.sccbrasil.com/blog/aws/cdk-pipeline.html
 
 ## project strucure
   
