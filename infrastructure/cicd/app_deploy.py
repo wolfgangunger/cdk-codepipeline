@@ -28,7 +28,7 @@ class AppDeploy(Stage):
 
         # put stage id into configuration object for use in JobDefStack
         config["stage"] = id
-        # Job Definition Example
+        # Job Definition Example ...
         jobdefs = JobDefsStack(
             self,
             "Job-Defs",
