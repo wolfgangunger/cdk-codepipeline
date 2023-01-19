@@ -32,27 +32,27 @@
       "accounts": {
         "tooling": {
           "account": "xxxxxxxxxxxx",
-          "region": "eu-west-1"
+          "region": "sa-east-1"
         },
         "dev": {
           "account": "xxxxxxxxxxxx",
-          "region": "eu-west-1"
+          "region": "sa-east-1"
         },
         "qa": {
           "account": "xxxxxxxxxxxx",
-          "region": "eu-west-1"
+          "region": "sa-east-1"
         },
         "prod": {
           "account": "xxxxxxxxxxxx",
-          "region": "eu-west-1"
+          "region": "sa-east-1"
         }
       },
-      "internet_vpc": "caedge-baseline-internet-access-vpc",
+      "internet_vpc": "your-vpc",
       "development_branch": "main",
       "production_branch": "main",
-      "owner" : "wolfgangunger",
-      "repo" : "cdk-codepipeline",         
-      "connection_arn": "arn:aws:codestar-connections:us-east-1:803379787620:connection/9a5f08af-c311-44ff-b77f-efd4074c0672"
+      "owner": "wolfgangunger",
+      "repo": "cdk-codepipeline",
+      "connection_arn": "arn:aws:codestar-connections:us-east-1:803379...."
     }
   }
 }

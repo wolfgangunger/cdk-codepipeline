@@ -17,7 +17,7 @@ tests/integration
 
 ## setup project
 ###
-create codestar connection in AWS Toolchain Account ( if you want to use code star. otherwise you have to configure your Github in the source )
+create github app connection in AWS Toolchain Account in the codepipeline
 ### cdk.json
 adapt the cdk.json for your accounts, also codestar connection url
 adapt branch names etc

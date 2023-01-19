@@ -1,0 +1,1190 @@
+[
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "Stack",
+        "importPath": "aws_cdk",
+        "description": "aws_cdk",
+        "isExtraImport": true,
+        "detail": "aws_cdk",
+        "documentation": {}
+    },
+    {
+        "label": "CfnOutput",
+        "importPath": "aws_cdk",
+        "description": "aws_cdk",
+        "isExtraImport": true,
+        "detail": "aws_cdk",
+        "documentation": {}
+    },
+    {
+        "label": "Duration",
+        "importPath": "aws_cdk",
+        "description": "aws_cdk",
+        "isExtraImport": true,
+        "detail": "aws_cdk",
+        "documentation": {}
+    },
+    {
+        "label": "aws_batch",
+        "importPath": "aws_cdk",
+        "description": "aws_cdk",
+        "isExtraImport": true,
+        "detail": "aws_cdk",
+        "documentation": {}
+    },
+    {
+        "label": "Stack",
+        "importPath": "aws_cdk",
+        "description": "aws_cdk",
+        "isExtraImport": true,
+        "detail": "aws_cdk",
+        "documentation": {}
+    },
+    {
+        "label": "aws_iam",
+        "importPath": "aws_cdk",
+        "description": "aws_cdk",
+        "isExtraImport": true,
+        "detail": "aws_cdk",
+        "documentation": {}
+    },
+    {
+        "label": "pipelines",
+        "importPath": "aws_cdk",
+        "description": "aws_cdk",
+        "isExtraImport": true,
+        "detail": "aws_cdk",
+        "documentation": {}
+    },
+    {
+        "label": "aws_codebuild",
+        "importPath": "aws_cdk",
+        "description": "aws_cdk",
+        "isExtraImport": true,
+        "detail": "aws_cdk",
+        "documentation": {}
+    },
+    {
+        "label": "Duration",
+        "importPath": "aws_cdk",
+        "description": "aws_cdk",
+        "isExtraImport": true,
+        "detail": "aws_cdk",
+        "documentation": {}
+    },
+    {
+        "label": "aws_iam",
+        "importPath": "aws_cdk",
+        "description": "aws_cdk",
+        "isExtraImport": true,
+        "detail": "aws_cdk",
+        "documentation": {}
+    },
+    {
+        "label": "Stack",
+        "importPath": "aws_cdk",
+        "description": "aws_cdk",
+        "isExtraImport": true,
+        "detail": "aws_cdk",
+        "documentation": {}
+    },
+    {
+        "label": "Stack",
+        "importPath": "aws_cdk",
+        "description": "aws_cdk",
+        "isExtraImport": true,
+        "detail": "aws_cdk",
+        "documentation": {}
+    },
+    {
+        "label": "App",
+        "importPath": "aws_cdk",
+        "description": "aws_cdk",
+        "isExtraImport": true,
+        "detail": "aws_cdk",
+        "documentation": {}
+    },
+    {
+        "label": "assertions",
+        "importPath": "aws_cdk",
+        "description": "aws_cdk",
+        "isExtraImport": true,
+        "detail": "aws_cdk",
+        "documentation": {}
+    },
+    {
+        "label": "Stack",
+        "importPath": "aws_cdk",
+        "description": "aws_cdk",
+        "isExtraImport": true,
+        "detail": "aws_cdk",
+        "documentation": {}
+    },
+    {
+        "label": "aws_batch",
+        "importPath": "aws_cdk",
+        "description": "aws_cdk",
+        "isExtraImport": true,
+        "detail": "aws_cdk",
+        "documentation": {}
+    },
+    {
+        "label": "Stack",
+        "importPath": "aws_cdk",
+        "description": "aws_cdk",
+        "isExtraImport": true,
+        "detail": "aws_cdk",
+        "documentation": {}
+    },
+    {
+        "label": "CfnOutput",
+        "importPath": "aws_cdk",
+        "description": "aws_cdk",
+        "isExtraImport": true,
+        "detail": "aws_cdk",
+        "documentation": {}
+    },
+    {
+        "label": "aws_batch",
+        "importPath": "aws_cdk",
+        "description": "aws_cdk",
+        "isExtraImport": true,
+        "detail": "aws_cdk",
+        "documentation": {}
+    },
+    {
+        "label": "Stage",
+        "importPath": "aws_cdk",
+        "description": "aws_cdk",
+        "isExtraImport": true,
+        "detail": "aws_cdk",
+        "documentation": {}
+    },
+    {
+        "label": "DefaultStackSynthesizer",
+        "importPath": "aws_cdk",
+        "description": "aws_cdk",
+        "isExtraImport": true,
+        "detail": "aws_cdk",
+        "documentation": {}
+    },
+    {
+        "label": "Stage",
+        "importPath": "aws_cdk",
+        "description": "aws_cdk",
+        "isExtraImport": true,
+        "detail": "aws_cdk",
+        "documentation": {}
+    },
+    {
+        "label": "DefaultStackSynthesizer",
+        "importPath": "aws_cdk",
+        "description": "aws_cdk",
+        "isExtraImport": true,
+        "detail": "aws_cdk",
+        "documentation": {}
+    },
+    {
+        "label": "App",
+        "importPath": "aws_cdk",
+        "description": "aws_cdk",
+        "isExtraImport": true,
+        "detail": "aws_cdk",
+        "documentation": {}
+    },
+    {
+        "label": "Stack",
+        "importPath": "aws_cdk",
+        "description": "aws_cdk",
+        "isExtraImport": true,
+        "detail": "aws_cdk",
+        "documentation": {}
+    },
+    {
+        "label": "App",
+        "importPath": "aws_cdk",
+        "description": "aws_cdk",
+        "isExtraImport": true,
+        "detail": "aws_cdk",
+        "documentation": {}
+    },
+    {
+        "label": "Stack",
+        "importPath": "aws_cdk",
+        "description": "aws_cdk",
+        "isExtraImport": true,
+        "detail": "aws_cdk",
+        "documentation": {}
+    },
+    {
+        "label": "Stack",
+        "importPath": "aws_cdk",
+        "description": "aws_cdk",
+        "isExtraImport": true,
+        "detail": "aws_cdk",
+        "documentation": {}
+    },
+    {
+        "label": "Duration",
+        "importPath": "aws_cdk",
+        "description": "aws_cdk",
+        "isExtraImport": true,
+        "detail": "aws_cdk",
+        "documentation": {}
+    },
+    {
+        "label": "App",
+        "importPath": "aws_cdk",
+        "description": "aws_cdk",
+        "isExtraImport": true,
+        "detail": "aws_cdk",
+        "documentation": {}
+    },
+    {
+        "label": "Stack",
+        "importPath": "aws_cdk",
+        "description": "aws_cdk",
+        "isExtraImport": true,
+        "detail": "aws_cdk",
+        "documentation": {}
+    },
+    {
+        "label": "App",
+        "importPath": "aws_cdk",
+        "description": "aws_cdk",
+        "isExtraImport": true,
+        "detail": "aws_cdk",
+        "documentation": {}
+    },
+    {
+        "label": "Stack",
+        "importPath": "aws_cdk",
+        "description": "aws_cdk",
+        "isExtraImport": true,
+        "detail": "aws_cdk",
+        "documentation": {}
+    },
+    {
+        "label": "App",
+        "importPath": "aws_cdk",
+        "description": "aws_cdk",
+        "isExtraImport": true,
+        "detail": "aws_cdk",
+        "documentation": {}
+    },
+    {
+        "label": "Stack",
+        "importPath": "aws_cdk",
+        "description": "aws_cdk",
+        "isExtraImport": true,
+        "detail": "aws_cdk",
+        "documentation": {}
+    },
+    {
+        "label": "Stack",
+        "importPath": "aws_cdk",
+        "description": "aws_cdk",
+        "isExtraImport": true,
+        "detail": "aws_cdk",
+        "documentation": {}
+    },
+    {
+        "label": "aws_ecr",
+        "importPath": "aws_cdk",
+        "description": "aws_cdk",
+        "isExtraImport": true,
+        "detail": "aws_cdk",
+        "documentation": {}
+    },
+    {
+        "label": "Stack",
+        "importPath": "aws_cdk",
+        "description": "aws_cdk",
+        "isExtraImport": true,
+        "detail": "aws_cdk",
+        "documentation": {}
+    },
+    {
+        "label": "aws_s3",
+        "importPath": "aws_cdk",
+        "description": "aws_cdk",
+        "isExtraImport": true,
+        "detail": "aws_cdk",
+        "documentation": {}
+    },
+    {
+        "label": "App",
+        "importPath": "aws_cdk",
+        "description": "aws_cdk",
+        "isExtraImport": true,
+        "detail": "aws_cdk",
+        "documentation": {}
+    },
+    {
+        "label": "Construct",
+        "importPath": "constructs",
+        "description": "constructs",
+        "isExtraImport": true,
+        "detail": "constructs",
+        "documentation": {}
+    },
+    {
+        "label": "Construct",
+        "importPath": "constructs",
+        "description": "constructs",
+        "isExtraImport": true,
+        "detail": "constructs",
+        "documentation": {}
+    },
+    {
+        "label": "Construct",
+        "importPath": "constructs",
+        "description": "constructs",
+        "isExtraImport": true,
+        "detail": "constructs",
+        "documentation": {}
+    },
+    {
+        "label": "Construct",
+        "importPath": "constructs",
+        "description": "constructs",
+        "isExtraImport": true,
+        "detail": "constructs",
+        "documentation": {}
+    },
+    {
+        "label": "Construct",
+        "importPath": "constructs",
+        "description": "constructs",
+        "isExtraImport": true,
+        "detail": "constructs",
+        "documentation": {}
+    },
+    {
+        "label": "Construct",
+        "importPath": "constructs",
+        "description": "constructs",
+        "isExtraImport": true,
+        "detail": "constructs",
+        "documentation": {}
+    },
+    {
+        "label": "Construct",
+        "importPath": "constructs",
+        "description": "constructs",
+        "isExtraImport": true,
+        "detail": "constructs",
+        "documentation": {}
+    },
+    {
+        "label": "Construct",
+        "importPath": "constructs",
+        "description": "constructs",
+        "isExtraImport": true,
+        "detail": "constructs",
+        "documentation": {}
+    },
+    {
+        "label": "Construct",
+        "importPath": "constructs",
+        "description": "constructs",
+        "isExtraImport": true,
+        "detail": "constructs",
+        "documentation": {}
+    },
+    {
+        "label": "Construct",
+        "importPath": "constructs",
+        "description": "constructs",
+        "isExtraImport": true,
+        "detail": "constructs",
+        "documentation": {}
+    },
+    {
+        "label": "Construct",
+        "importPath": "constructs",
+        "description": "constructs",
+        "isExtraImport": true,
+        "detail": "constructs",
+        "documentation": {}
+    },
+    {
+        "label": "Construct",
+        "importPath": "constructs",
+        "description": "constructs",
+        "isExtraImport": true,
+        "detail": "constructs",
+        "documentation": {}
+    },
+    {
+        "label": "aws_cdk.aws_iam",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "aws_cdk.aws_iam",
+        "description": "aws_cdk.aws_iam",
+        "detail": "aws_cdk.aws_iam",
+        "documentation": {}
+    },
+    {
+        "label": "BuildEnvironment",
+        "importPath": "aws_cdk.aws_codebuild",
+        "description": "aws_cdk.aws_codebuild",
+        "isExtraImport": true,
+        "detail": "aws_cdk.aws_codebuild",
+        "documentation": {}
+    },
+    {
+        "label": "CodePipeline",
+        "importPath": "aws_cdk.pipelines",
+        "description": "aws_cdk.pipelines",
+        "isExtraImport": true,
+        "detail": "aws_cdk.pipelines",
+        "documentation": {}
+    },
+    {
+        "label": "AppDeploy",
+        "importPath": "infrastructure.cicd.app_deploy",
+        "description": "infrastructure.cicd.app_deploy",
+        "isExtraImport": true,
+        "detail": "infrastructure.cicd.app_deploy",
+        "documentation": {}
+    },
+    {
+        "label": "AppDeployBootstrap",
+        "importPath": "infrastructure.cicd.app_deploy",
+        "description": "infrastructure.cicd.app_deploy",
+        "isExtraImport": true,
+        "detail": "infrastructure.cicd.app_deploy",
+        "documentation": {}
+    },
+    {
+        "label": "ToolchainDeploy",
+        "importPath": "infrastructure.cicd.toolchain_deploy",
+        "description": "infrastructure.cicd.toolchain_deploy",
+        "isExtraImport": true,
+        "detail": "infrastructure.cicd.toolchain_deploy",
+        "documentation": {}
+    },
+    {
+        "label": "BootstrapRole",
+        "importPath": "generic.infrastructure.iam.bootstrap_role_construct",
+        "description": "generic.infrastructure.iam.bootstrap_role_construct",
+        "isExtraImport": true,
+        "detail": "generic.infrastructure.iam.bootstrap_role_construct",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "unittest",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "unittest",
+        "description": "unittest",
+        "detail": "unittest",
+        "documentation": {}
+    },
+    {
+        "label": "test_wrapper.jobdef_construct_stack",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "test_wrapper.jobdef_construct_stack",
+        "description": "test_wrapper.jobdef_construct_stack",
+        "detail": "test_wrapper.jobdef_construct_stack",
+        "documentation": {}
+    },
+    {
+        "label": "JobDefConstruct",
+        "importPath": "generic.infrastructure.batch.jobdef_construct",
+        "description": "generic.infrastructure.batch.jobdef_construct",
+        "isExtraImport": true,
+        "detail": "generic.infrastructure.batch.jobdef_construct",
+        "documentation": {}
+    },
+    {
+        "label": "JobDefConstruct",
+        "importPath": "generic.infrastructure.batch.jobdef_construct",
+        "description": "generic.infrastructure.batch.jobdef_construct",
+        "isExtraImport": true,
+        "detail": "generic.infrastructure.batch.jobdef_construct",
+        "documentation": {}
+    },
+    {
+        "label": "EcrStack",
+        "importPath": "infrastructure.ecr_stack",
+        "description": "infrastructure.ecr_stack",
+        "isExtraImport": true,
+        "detail": "infrastructure.ecr_stack",
+        "documentation": {}
+    },
+    {
+        "label": "EcrStack",
+        "importPath": "infrastructure.ecr_stack",
+        "description": "infrastructure.ecr_stack",
+        "isExtraImport": true,
+        "detail": "infrastructure.ecr_stack",
+        "documentation": {}
+    },
+    {
+        "label": "EcrStack",
+        "importPath": "infrastructure.ecr_stack",
+        "description": "infrastructure.ecr_stack",
+        "isExtraImport": true,
+        "detail": "infrastructure.ecr_stack",
+        "documentation": {}
+    },
+    {
+        "label": "ExampleLambda",
+        "importPath": "infrastructure.lambdas.example_lambda",
+        "description": "infrastructure.lambdas.example_lambda",
+        "isExtraImport": true,
+        "detail": "infrastructure.lambdas.example_lambda",
+        "documentation": {}
+    },
+    {
+        "label": "ExampleLambda",
+        "importPath": "infrastructure.lambdas.example_lambda",
+        "description": "infrastructure.lambdas.example_lambda",
+        "isExtraImport": true,
+        "detail": "infrastructure.lambdas.example_lambda",
+        "documentation": {}
+    },
+    {
+        "label": "ExampleLambda",
+        "importPath": "infrastructure.lambdas.example_lambda",
+        "description": "infrastructure.lambdas.example_lambda",
+        "isExtraImport": true,
+        "detail": "infrastructure.lambdas.example_lambda",
+        "documentation": {}
+    },
+    {
+        "label": "S3Stack",
+        "importPath": "infrastructure.s3bucket_stack",
+        "description": "infrastructure.s3bucket_stack",
+        "isExtraImport": true,
+        "detail": "infrastructure.s3bucket_stack",
+        "documentation": {}
+    },
+    {
+        "label": "S3Stack",
+        "importPath": "infrastructure.s3bucket_stack",
+        "description": "infrastructure.s3bucket_stack",
+        "isExtraImport": true,
+        "detail": "infrastructure.s3bucket_stack",
+        "documentation": {}
+    },
+    {
+        "label": "JobDefsStack",
+        "importPath": "infrastructure.batch.job_defs_stack",
+        "description": "infrastructure.batch.job_defs_stack",
+        "isExtraImport": true,
+        "detail": "infrastructure.batch.job_defs_stack",
+        "documentation": {}
+    },
+    {
+        "label": "JobDefsStack",
+        "importPath": "infrastructure.batch.job_defs_stack",
+        "description": "infrastructure.batch.job_defs_stack",
+        "isExtraImport": true,
+        "detail": "infrastructure.batch.job_defs_stack",
+        "documentation": {}
+    },
+    {
+        "label": "PipelineStack",
+        "importPath": "generic.infrastructure.cicd.pipeline_stack",
+        "description": "generic.infrastructure.cicd.pipeline_stack",
+        "isExtraImport": true,
+        "detail": "generic.infrastructure.cicd.pipeline_stack",
+        "documentation": {}
+    },
+    {
+        "label": "index",
+        "importPath": "operator",
+        "description": "operator",
+        "isExtraImport": true,
+        "detail": "operator",
+        "documentation": {}
+    },
+    {
+        "label": "index",
+        "importPath": "operator",
+        "description": "operator",
+        "isExtraImport": true,
+        "detail": "operator",
+        "documentation": {}
+    },
+    {
+        "label": "os,",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os.",
+        "description": "os.",
+        "detail": "os.",
+        "documentation": {}
+    },
+    {
+        "label": "lambda_handler",
+        "importPath": "lambda_src.example.index",
+        "description": "lambda_src.example.index",
+        "isExtraImport": true,
+        "detail": "lambda_src.example.index",
+        "documentation": {}
+    },
+    {
+        "label": "multiply",
+        "importPath": "lambda_src.example.index",
+        "description": "lambda_src.example.index",
+        "isExtraImport": true,
+        "detail": "lambda_src.example.index",
+        "documentation": {}
+    },
+    {
+        "label": "sum",
+        "importPath": "lambda_src.example.index",
+        "description": "lambda_src.example.index",
+        "isExtraImport": true,
+        "detail": "lambda_src.example.index",
+        "documentation": {}
+    },
+    {
+        "label": "boto3",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "boto3",
+        "description": "boto3",
+        "detail": "boto3",
+        "documentation": {}
+    },
+    {
+        "label": "mock_s3",
+        "importPath": "moto",
+        "description": "moto",
+        "isExtraImport": true,
+        "detail": "moto",
+        "documentation": {}
+    },
+    {
+        "label": "ExampleS3",
+        "importPath": "lambda_src.example_s3.index",
+        "description": "lambda_src.example_s3.index",
+        "isExtraImport": true,
+        "detail": "lambda_src.example_s3.index",
+        "documentation": {}
+    },
+    {
+        "label": "aws_cdk.aws_lambda",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "aws_cdk.aws_lambda",
+        "description": "aws_cdk.aws_lambda",
+        "detail": "aws_cdk.aws_lambda",
+        "documentation": {}
+    },
+    {
+        "label": "pytest",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pytest",
+        "description": "pytest",
+        "detail": "pytest",
+        "documentation": {}
+    },
+    {
+        "label": "ProjectPipelineStack",
+        "importPath": "infrastructure.cicd.project_pipeline_stack",
+        "description": "infrastructure.cicd.project_pipeline_stack",
+        "isExtraImport": true,
+        "detail": "infrastructure.cicd.project_pipeline_stack",
+        "documentation": {}
+    },
+    {
+        "label": "ProjectPipelineStack",
+        "importPath": "infrastructure.cicd.project_pipeline_stack",
+        "description": "infrastructure.cicd.project_pipeline_stack",
+        "isExtraImport": true,
+        "detail": "infrastructure.cicd.project_pipeline_stack",
+        "documentation": {}
+    },
+    {
+        "label": "BootstrapRoleStack",
+        "importPath": "generic.infrastructure.iam.bootstrap_role_stack",
+        "description": "generic.infrastructure.iam.bootstrap_role_stack",
+        "isExtraImport": true,
+        "detail": "generic.infrastructure.iam.bootstrap_role_stack",
+        "documentation": {}
+    },
+    {
+        "label": "lambda_handler",
+        "kind": 2,
+        "importPath": "cdk.out.asset.2b012a7ba56f375a158e3c6bf06061a5eda391e2ac2d4d0145b285f61c3aaf68.index",
+        "description": "cdk.out.asset.2b012a7ba56f375a158e3c6bf06061a5eda391e2ac2d4d0145b285f61c3aaf68.index",
+        "peekOfCode": "def lambda_handler(event, context):\n    numbers = event['numbers']\n    response = json.dumps({\"addition\":sum(numbers[0],numbers[1]), \"multiplication\":multiply(numbers[0],numbers[1])})\n    return {\n        \"statusCode\": 200,\n        \"body\": response,\n    }\ndef sum(a,b):\n    return a+b\ndef multiply(a,b):",
+        "detail": "cdk.out.asset.2b012a7ba56f375a158e3c6bf06061a5eda391e2ac2d4d0145b285f61c3aaf68.index",
+        "documentation": {}
+    },
+    {
+        "label": "sum",
+        "kind": 2,
+        "importPath": "cdk.out.asset.2b012a7ba56f375a158e3c6bf06061a5eda391e2ac2d4d0145b285f61c3aaf68.index",
+        "description": "cdk.out.asset.2b012a7ba56f375a158e3c6bf06061a5eda391e2ac2d4d0145b285f61c3aaf68.index",
+        "peekOfCode": "def sum(a,b):\n    return a+b\ndef multiply(a,b):\n    return a * b",
+        "detail": "cdk.out.asset.2b012a7ba56f375a158e3c6bf06061a5eda391e2ac2d4d0145b285f61c3aaf68.index",
+        "documentation": {}
+    },
+    {
+        "label": "multiply",
+        "kind": 2,
+        "importPath": "cdk.out.asset.2b012a7ba56f375a158e3c6bf06061a5eda391e2ac2d4d0145b285f61c3aaf68.index",
+        "description": "cdk.out.asset.2b012a7ba56f375a158e3c6bf06061a5eda391e2ac2d4d0145b285f61c3aaf68.index",
+        "peekOfCode": "def multiply(a,b):\n    return a * b",
+        "detail": "cdk.out.asset.2b012a7ba56f375a158e3c6bf06061a5eda391e2ac2d4d0145b285f61c3aaf68.index",
+        "documentation": {}
+    },
+    {
+        "label": "lambda_handler",
+        "kind": 2,
+        "importPath": "cdk.out.asset.b1e8b46c77d863d43b44c10ffc81b7fb143ac10a46aa79df63e08a5c26ca9266.index",
+        "description": "cdk.out.asset.b1e8b46c77d863d43b44c10ffc81b7fb143ac10a46aa79df63e08a5c26ca9266.index",
+        "peekOfCode": "def lambda_handler(event, context):\n    numbers = event['numbers']\n    response = json.dumps({\"addition\":sum(numbers[0],numbers[1]), \"multiplication\":multiply(numbers[0],numbers[1])})\n    return {\n        \"statusCode\": 200,\n        \"body\": response,\n    }\ndef sum(a,b):\n    return a+b\ndef multiply(a,b):",
+        "detail": "cdk.out.asset.b1e8b46c77d863d43b44c10ffc81b7fb143ac10a46aa79df63e08a5c26ca9266.index",
+        "documentation": {}
+    },
+    {
+        "label": "sum",
+        "kind": 2,
+        "importPath": "cdk.out.asset.b1e8b46c77d863d43b44c10ffc81b7fb143ac10a46aa79df63e08a5c26ca9266.index",
+        "description": "cdk.out.asset.b1e8b46c77d863d43b44c10ffc81b7fb143ac10a46aa79df63e08a5c26ca9266.index",
+        "peekOfCode": "def sum(a,b):\n    return a+b\ndef multiply(a,b):\n    return a * b",
+        "detail": "cdk.out.asset.b1e8b46c77d863d43b44c10ffc81b7fb143ac10a46aa79df63e08a5c26ca9266.index",
+        "documentation": {}
+    },
+    {
+        "label": "multiply",
+        "kind": 2,
+        "importPath": "cdk.out.asset.b1e8b46c77d863d43b44c10ffc81b7fb143ac10a46aa79df63e08a5c26ca9266.index",
+        "description": "cdk.out.asset.b1e8b46c77d863d43b44c10ffc81b7fb143ac10a46aa79df63e08a5c26ca9266.index",
+        "peekOfCode": "def multiply(a,b):\n    return a * b",
+        "detail": "cdk.out.asset.b1e8b46c77d863d43b44c10ffc81b7fb143ac10a46aa79df63e08a5c26ca9266.index",
+        "documentation": {}
+    },
+    {
+        "label": "JobDefConstruct",
+        "kind": 6,
+        "importPath": "generic.infrastructure.batch.jobdef_construct",
+        "description": "generic.infrastructure.batch.jobdef_construct",
+        "peekOfCode": "class JobDefConstruct(Construct):\n    def __init__(\n        self,\n        scope: Construct,\n        id: str,\n        image: str,\n        command,\n        environment,\n        resource_requirements,\n        timeout: int,",
+        "detail": "generic.infrastructure.batch.jobdef_construct",
+        "documentation": {}
+    },
+    {
+        "label": "PipelineStack",
+        "kind": 6,
+        "importPath": "generic.infrastructure.cicd.pipeline_stack",
+        "description": "generic.infrastructure.cicd.pipeline_stack",
+        "peekOfCode": "class PipelineStack(Stack):\n    def __init__(\n        self,\n        scope: Construct,\n        id: str,\n        development_pipeline: bool,\n        config: dict = None,\n        **kwargs,\n    ):\n        super().__init__(scope, id, **kwargs)",
+        "detail": "generic.infrastructure.cicd.pipeline_stack",
+        "documentation": {}
+    },
+    {
+        "label": "BootstrapRole",
+        "kind": 6,
+        "importPath": "generic.infrastructure.iam.bootstrap_role_construct",
+        "description": "generic.infrastructure.iam.bootstrap_role_construct",
+        "peekOfCode": "class BootstrapRole(Construct):\n    def __init__(\n        self,\n        scope: Construct,\n        id: str,\n        toolchain_account: str,\n        **kwargs,\n    ) -> None:\n        super().__init__(scope, id, **kwargs)\n        self.role = aws_iam.Role(",
+        "detail": "generic.infrastructure.iam.bootstrap_role_construct",
+        "documentation": {}
+    },
+    {
+        "label": "BootstrapRoleStack",
+        "kind": 6,
+        "importPath": "generic.infrastructure.iam.bootstrap_role_stack",
+        "description": "generic.infrastructure.iam.bootstrap_role_stack",
+        "peekOfCode": "class BootstrapRoleStack(Stack):\n    def __init__(\n        self,\n        scope: Construct,\n        id: str,\n        toolchain_account: str,\n        account: str,\n        **kwargs,\n    ) -> None:\n        super().__init__(scope, id, **kwargs)",
+        "detail": "generic.infrastructure.iam.bootstrap_role_stack",
+        "documentation": {}
+    },
+    {
+        "label": "TestJobDefsConstruct",
+        "kind": 6,
+        "importPath": "generic.infrastructure.tests.test_jobdef_construct",
+        "description": "generic.infrastructure.tests.test_jobdef_construct",
+        "peekOfCode": "class TestJobDefsConstruct(unittest.TestCase):\n    def test_create_job_defs_construct_ok(self):\n        # GIVEN\n        with open(CDK_JSON) as json_file:\n            cdk_json = json.load(json_file)\n        app = App()\n        # WHEN\n        config = cdk_json[\"context\"][\"config\"]\n        # set dev as a stage if no stage is informed\n        config.setdefault(\"stage\", \"dev\")",
+        "detail": "generic.infrastructure.tests.test_jobdef_construct",
+        "documentation": {}
+    },
+    {
+        "label": "FOLDER",
+        "kind": 5,
+        "importPath": "generic.infrastructure.tests.test_jobdef_construct",
+        "description": "generic.infrastructure.tests.test_jobdef_construct",
+        "peekOfCode": "FOLDER = os.path.abspath(os.path.join(os.path.dirname(__file__), r\"../\"))\nif FOLDER not in sys.path:\n    sys.path.append(FOLDER)\nimport test_wrapper.jobdef_construct_stack\n# - Defines ------------------------------------------------------------------------------------------------------------\nCDK_JSON = os.path.abspath(\n    os.path.join(os.path.dirname(__file__), r\"../../../cdk.json\")\n)\n## test to test a construct using a wrapper calls ( s stack creating the construct)\n### problem importing the wrapper stack class inside this package",
+        "detail": "generic.infrastructure.tests.test_jobdef_construct",
+        "documentation": {}
+    },
+    {
+        "label": "CDK_JSON",
+        "kind": 5,
+        "importPath": "generic.infrastructure.tests.test_jobdef_construct",
+        "description": "generic.infrastructure.tests.test_jobdef_construct",
+        "peekOfCode": "CDK_JSON = os.path.abspath(\n    os.path.join(os.path.dirname(__file__), r\"../../../cdk.json\")\n)\n## test to test a construct using a wrapper calls ( s stack creating the construct)\n### problem importing the wrapper stack class inside this package\nclass TestJobDefsConstruct(unittest.TestCase):\n    def test_create_job_defs_construct_ok(self):\n        # GIVEN\n        with open(CDK_JSON) as json_file:\n            cdk_json = json.load(json_file)",
+        "detail": "generic.infrastructure.tests.test_jobdef_construct",
+        "documentation": {}
+    },
+    {
+        "label": "JobDefsStackTest",
+        "kind": 6,
+        "importPath": "generic.infrastructure.test_wrapper.jobdef_construct_stack",
+        "description": "generic.infrastructure.test_wrapper.jobdef_construct_stack",
+        "peekOfCode": "class JobDefsStackTest(Stack):\n    def __init__(\n        self,\n        scope: Construct,\n        id: str,\n        description: str,\n        config: dict,\n        **kwargs,\n    ) -> None:\n        super().__init__(scope, id, description=description, **kwargs)",
+        "detail": "generic.infrastructure.test_wrapper.jobdef_construct_stack",
+        "documentation": {}
+    },
+    {
+        "label": "JobDefsStack",
+        "kind": 6,
+        "importPath": "infrastructure.batch.job_defs_stack",
+        "description": "infrastructure.batch.job_defs_stack",
+        "peekOfCode": "class JobDefsStack(Stack):\n    def __init__(\n        self,\n        scope: Construct,\n        id: str,\n        description: str,\n        config: dict,\n        **kwargs,\n    ) -> None:\n        \"\"\"",
+        "detail": "infrastructure.batch.job_defs_stack",
+        "documentation": {}
+    },
+    {
+        "label": "AppDeployBootstrap",
+        "kind": 6,
+        "importPath": "infrastructure.cicd.app_deploy",
+        "description": "infrastructure.cicd.app_deploy",
+        "peekOfCode": "class AppDeployBootstrap(Stage):\n    def __init__(self, scope: Construct, id: str, config: dict = None, **kwargs):\n        super().__init__(scope, id, **kwargs)\n        ecr_repo = EcrStack(\n            self,\n            \"EcrRepoStack\",\n            config=config,\n            synthesizer=DefaultStackSynthesizer(),\n        )\nclass AppDeploy(Stage):",
+        "detail": "infrastructure.cicd.app_deploy",
+        "documentation": {}
+    },
+    {
+        "label": "AppDeploy",
+        "kind": 6,
+        "importPath": "infrastructure.cicd.app_deploy",
+        "description": "infrastructure.cicd.app_deploy",
+        "peekOfCode": "class AppDeploy(Stage):\n    def __init__(self, scope: Construct, id: str, config: dict = None, **kwargs):\n        super().__init__(scope, id, **kwargs)\n        # s3 bucket Stack Example\n        s3bucket = S3Stack(self, \"S3Stack\", config=config)\n        # put stage id into configuration object for use in JobDefStack\n        config[\"stage\"] = id\n        # Job Definition Example\n        jobdefs = JobDefsStack(\n            self,",
+        "detail": "infrastructure.cicd.app_deploy",
+        "documentation": {}
+    },
+    {
+        "label": "ProjectPipelineStack",
+        "kind": 6,
+        "importPath": "infrastructure.cicd.project_pipeline_stack",
+        "description": "infrastructure.cicd.project_pipeline_stack",
+        "peekOfCode": "class ProjectPipelineStack(PipelineStack):\n    def __init__(\n        self,\n        scope: Construct,\n        id: str,\n        development_pipeline: bool,\n        config: dict = None,\n        **kwargs,\n    ):\n        super().__init__(",
+        "detail": "infrastructure.cicd.project_pipeline_stack",
+        "documentation": {}
+    },
+    {
+        "label": "ToolchainDeploy",
+        "kind": 6,
+        "importPath": "infrastructure.cicd.toolchain_deploy",
+        "description": "infrastructure.cicd.toolchain_deploy",
+        "peekOfCode": "class ToolchainDeploy(Stage):\n    def __init__(self, scope: Construct, id: str, config: dict = None, **kwargs):\n        super().__init__(scope, id, **kwargs)\n        ecr_repo = EcrStack(\n            self,\n            \"EcrRepoStack\",\n            config=config,\n            synthesizer=DefaultStackSynthesizer(),\n        )",
+        "detail": "infrastructure.cicd.toolchain_deploy",
+        "documentation": {}
+    },
+    {
+        "label": "TestLambdaStack",
+        "kind": 6,
+        "importPath": "infrastructure.lambdas.tests.test_example_lambda",
+        "description": "infrastructure.lambdas.tests.test_example_lambda",
+        "peekOfCode": "class TestLambdaStack(unittest.TestCase):\n    ## Test lambda infrastructure creation\n    def test_create_stack_ok(self):\n        # GIVEN\n        with open(CDK_JSON) as json_file:\n            cdk_json = json.load(json_file)\n        app = App()\n        config = cdk_json[\"context\"][\"config\"]\n        # WHEN\n        stack = ExampleLambda(",
+        "detail": "infrastructure.lambdas.tests.test_example_lambda",
+        "documentation": {}
+    },
+    {
+        "label": "LambdaFunctionTests",
+        "kind": 6,
+        "importPath": "infrastructure.lambdas.tests.test_example_lambda",
+        "description": "infrastructure.lambdas.tests.test_example_lambda",
+        "peekOfCode": "class LambdaFunctionTests(unittest.TestCase):\n    # GIVEN\n    def setUp(self):\n        self.event = {\"numbers\": [3, 5]}\n        self.a = 3\n        self.b = 5\n    def test_lambda_handler(self):\n        # WHEN\n        result = lambda_handler(self.event, \"\")\n        # THEN",
+        "detail": "infrastructure.lambdas.tests.test_example_lambda",
+        "documentation": {}
+    },
+    {
+        "label": "FOLDER",
+        "kind": 5,
+        "importPath": "infrastructure.lambdas.tests.test_example_lambda",
+        "description": "infrastructure.lambdas.tests.test_example_lambda",
+        "peekOfCode": "FOLDER = os.path.abspath(os.path.join(os.path.dirname(__file__), r\"../\"))\nif FOLDER not in sys.path:\n    sys.path.append(FOLDER)\nfrom infrastructure.lambdas.example_lambda import ExampleLambda\nfrom lambda_src.example.index import lambda_handler, multiply, sum\n# - Defines ------------------------------------------------------------------------------------------------------------\nCDK_JSON = os.path.abspath(\n    os.path.join(os.path.dirname(__file__), r\"../../../cdk.json\")\n)\n# - Functions/Classes --------------------------------------------------------------------------------------------------",
+        "detail": "infrastructure.lambdas.tests.test_example_lambda",
+        "documentation": {}
+    },
+    {
+        "label": "CDK_JSON",
+        "kind": 5,
+        "importPath": "infrastructure.lambdas.tests.test_example_lambda",
+        "description": "infrastructure.lambdas.tests.test_example_lambda",
+        "peekOfCode": "CDK_JSON = os.path.abspath(\n    os.path.join(os.path.dirname(__file__), r\"../../../cdk.json\")\n)\n# - Functions/Classes --------------------------------------------------------------------------------------------------\nclass TestLambdaStack(unittest.TestCase):\n    ## Test lambda infrastructure creation\n    def test_create_stack_ok(self):\n        # GIVEN\n        with open(CDK_JSON) as json_file:\n            cdk_json = json.load(json_file)",
+        "detail": "infrastructure.lambdas.tests.test_example_lambda",
+        "documentation": {}
+    },
+    {
+        "label": "test_save",
+        "kind": 2,
+        "importPath": "infrastructure.lambdas.tests.test_example_s3_lambda",
+        "description": "infrastructure.lambdas.tests.test_example_s3_lambda",
+        "peekOfCode": "def test_save():\n    s3 = boto3.resource(\"s3\", region_name=\"us-east-1\")\n    s3.create_bucket(Bucket=\"myS3bucket\")\n    instance = ExampleS3(\"test_name\", \"test_value\")\n    instance.save()\n    body = s3.Object(\"myS3bucket\", \"test_name\").get()[\"Body\"].read().decode(\"utf-8\")\n    assert body == \"test_value\"\n# - Main ---------------------------------------------------------------------------------------------------------------\n# - EOF -",
+        "detail": "infrastructure.lambdas.tests.test_example_s3_lambda",
+        "documentation": {}
+    },
+    {
+        "label": "FOLDER",
+        "kind": 5,
+        "importPath": "infrastructure.lambdas.tests.test_example_s3_lambda",
+        "description": "infrastructure.lambdas.tests.test_example_s3_lambda",
+        "peekOfCode": "FOLDER = os.path.abspath(os.path.join(os.path.dirname(__file__), r\"../\"))\nif FOLDER not in sys.path:\n    sys.path.append(FOLDER)\nfrom infrastructure.lambdas.example_lambda import ExampleLambda\nfrom lambda_src.example_s3.index import ExampleS3\n# - Defines ------------------------------------------------------------------------------------------------------------\nCDK_JSON = os.path.abspath(\n    os.path.join(os.path.dirname(__file__), r\"../../../cdk.json\")\n)\n# - Functions/Classes --------------------------------------------------------------------------------------------------",
+        "detail": "infrastructure.lambdas.tests.test_example_s3_lambda",
+        "documentation": {}
+    },
+    {
+        "label": "CDK_JSON",
+        "kind": 5,
+        "importPath": "infrastructure.lambdas.tests.test_example_s3_lambda",
+        "description": "infrastructure.lambdas.tests.test_example_s3_lambda",
+        "peekOfCode": "CDK_JSON = os.path.abspath(\n    os.path.join(os.path.dirname(__file__), r\"../../../cdk.json\")\n)\n# - Functions/Classes --------------------------------------------------------------------------------------------------\n## TODO: test for lambda s3 stack\n# class TestLambdaS3Stack(unittest.TestCase):\n#     ## Test lambda infrastructure creation\n#     def test_create_stack_ok(self):\n#         # GIVEN\n#         with open(CDK_JSON) as json_file:",
+        "detail": "infrastructure.lambdas.tests.test_example_s3_lambda",
+        "documentation": {}
+    },
+    {
+        "label": "ExampleLambda",
+        "kind": 6,
+        "importPath": "infrastructure.lambdas.example_lambda",
+        "description": "infrastructure.lambdas.example_lambda",
+        "peekOfCode": "class ExampleLambda(Stack):\n    def __init__(self, \n        scope: Construct, \n        id: str,\n        description: str,    \n        config: dict,\n        **kwargs):\n        super().__init__(scope, id,description=description, **kwargs)\n        example_lambda = _lambda.Function(\n            self,",
+        "detail": "infrastructure.lambdas.example_lambda",
+        "documentation": {}
+    },
+    {
+        "label": "TestEcrStack",
+        "kind": 6,
+        "importPath": "infrastructure.tests.test_ecr_stack",
+        "description": "infrastructure.tests.test_ecr_stack",
+        "peekOfCode": "class TestEcrStack(unittest.TestCase):\n    def test_create_stack_ok(self):\n        # GIVEN\n        with open(CDK_JSON) as json_file:\n            cdk_json = json.load(json_file)\n        app = App()\n        # WHEN\n        stack = EcrStack(\n            app,\n            \"test-ecr-stack\",",
+        "detail": "infrastructure.tests.test_ecr_stack",
+        "documentation": {}
+    },
+    {
+        "label": "FOLDER",
+        "kind": 5,
+        "importPath": "infrastructure.tests.test_ecr_stack",
+        "description": "infrastructure.tests.test_ecr_stack",
+        "peekOfCode": "FOLDER = os.path.abspath(os.path.join(os.path.dirname(__file__), r\"../\"))\nif FOLDER not in sys.path:\n    sys.path.append(FOLDER)\nfrom infrastructure.ecr_stack import EcrStack\n# - Defines ------------------------------------------------------------------------------------------------------------\nCDK_JSON = os.path.abspath(\n    os.path.join(os.path.dirname(__file__), r\"../../cdk.json\")\n)\n# - Functions/Classes --------------------------------------------------------------------------------------------------\nclass TestEcrStack(unittest.TestCase):",
+        "detail": "infrastructure.tests.test_ecr_stack",
+        "documentation": {}
+    },
+    {
+        "label": "CDK_JSON",
+        "kind": 5,
+        "importPath": "infrastructure.tests.test_ecr_stack",
+        "description": "infrastructure.tests.test_ecr_stack",
+        "peekOfCode": "CDK_JSON = os.path.abspath(\n    os.path.join(os.path.dirname(__file__), r\"../../cdk.json\")\n)\n# - Functions/Classes --------------------------------------------------------------------------------------------------\nclass TestEcrStack(unittest.TestCase):\n    def test_create_stack_ok(self):\n        # GIVEN\n        with open(CDK_JSON) as json_file:\n            cdk_json = json.load(json_file)\n        app = App()",
+        "detail": "infrastructure.tests.test_ecr_stack",
+        "documentation": {}
+    },
+    {
+        "label": "TestJobDefsStack",
+        "kind": 6,
+        "importPath": "infrastructure.tests.test_jobdefs_stack",
+        "description": "infrastructure.tests.test_jobdefs_stack",
+        "peekOfCode": "class TestJobDefsStack(unittest.TestCase):\n    def test_create_stack_ok(self):\n        # GIVEN\n        with open(CDK_JSON) as json_file:\n            cdk_json = json.load(json_file)\n        app = App()\n        config = cdk_json[\"context\"][\"config\"]\n        #set dev as a stage if no stage is informed\n        config.setdefault(\"stage\",\"dev\")        \n        # WHEN  ",
+        "detail": "infrastructure.tests.test_jobdefs_stack",
+        "documentation": {}
+    },
+    {
+        "label": "FOLDER",
+        "kind": 5,
+        "importPath": "infrastructure.tests.test_jobdefs_stack",
+        "description": "infrastructure.tests.test_jobdefs_stack",
+        "peekOfCode": "FOLDER = os.path.abspath(os.path.join(os.path.dirname(__file__), r\"../\"))\nif FOLDER not in sys.path:\n    sys.path.append(FOLDER)\nfrom infrastructure.batch.job_defs_stack import JobDefsStack\n# - Defines ------------------------------------------------------------------------------------------------------------\nCDK_JSON = os.path.abspath(\n    os.path.join(os.path.dirname(__file__), r\"../../cdk.json\")\n)\n# - Functions/Classes --------------------------------------------------------------------------------------------------\nclass TestJobDefsStack(unittest.TestCase):",
+        "detail": "infrastructure.tests.test_jobdefs_stack",
+        "documentation": {}
+    },
+    {
+        "label": "CDK_JSON",
+        "kind": 5,
+        "importPath": "infrastructure.tests.test_jobdefs_stack",
+        "description": "infrastructure.tests.test_jobdefs_stack",
+        "peekOfCode": "CDK_JSON = os.path.abspath(\n    os.path.join(os.path.dirname(__file__), r\"../../cdk.json\")\n)\n# - Functions/Classes --------------------------------------------------------------------------------------------------\nclass TestJobDefsStack(unittest.TestCase):\n    def test_create_stack_ok(self):\n        # GIVEN\n        with open(CDK_JSON) as json_file:\n            cdk_json = json.load(json_file)\n        app = App()",
+        "detail": "infrastructure.tests.test_jobdefs_stack",
+        "documentation": {}
+    },
+    {
+        "label": "TestPipelineStack",
+        "kind": 6,
+        "importPath": "infrastructure.tests.test_pipeline_stack",
+        "description": "infrastructure.tests.test_pipeline_stack",
+        "peekOfCode": "class TestPipelineStack(unittest.TestCase):\n    def test_create_stack_ok(self):\n        # GIVEN\n        with open(CDK_JSON) as json_file:\n            cdk_json = json.load(json_file)\n        app = App()\n        region: str = cdk_json[\"context\"][\"config\"][\"accounts\"][\"tooling\"][\"region\"]\n        toolchain_account: str = cdk_json[\"context\"][\"config\"][\"accounts\"][\"tooling\"][\"account\"]\n        # WHEN\n        stack = ProjectPipelineStack(",
+        "detail": "infrastructure.tests.test_pipeline_stack",
+        "documentation": {}
+    },
+    {
+        "label": "FOLDER",
+        "kind": 5,
+        "importPath": "infrastructure.tests.test_pipeline_stack",
+        "description": "infrastructure.tests.test_pipeline_stack",
+        "peekOfCode": "FOLDER = os.path.abspath(os.path.join(os.path.dirname(__file__), r\"../\"))\nif FOLDER not in sys.path:\n    sys.path.append(FOLDER)\nfrom infrastructure.cicd.project_pipeline_stack import ProjectPipelineStack\n# - Defines ------------------------------------------------------------------------------------------------------------\nCDK_JSON = os.path.abspath(\n    os.path.join(os.path.dirname(__file__), r\"../../cdk.json\")\n)\n# - Functions/Classes --------------------------------------------------------------------------------------------------\nclass TestPipelineStack(unittest.TestCase):",
+        "detail": "infrastructure.tests.test_pipeline_stack",
+        "documentation": {}
+    },
+    {
+        "label": "CDK_JSON",
+        "kind": 5,
+        "importPath": "infrastructure.tests.test_pipeline_stack",
+        "description": "infrastructure.tests.test_pipeline_stack",
+        "peekOfCode": "CDK_JSON = os.path.abspath(\n    os.path.join(os.path.dirname(__file__), r\"../../cdk.json\")\n)\n# - Functions/Classes --------------------------------------------------------------------------------------------------\nclass TestPipelineStack(unittest.TestCase):\n    def test_create_stack_ok(self):\n        # GIVEN\n        with open(CDK_JSON) as json_file:\n            cdk_json = json.load(json_file)\n        app = App()",
+        "detail": "infrastructure.tests.test_pipeline_stack",
+        "documentation": {}
+    },
+    {
+        "label": "TestEcrStack",
+        "kind": 6,
+        "importPath": "infrastructure.tests.test_s3bucket_stack",
+        "description": "infrastructure.tests.test_s3bucket_stack",
+        "peekOfCode": "class TestEcrStack(unittest.TestCase):\n    def test_create_stack_ok(self):\n        # GIVEN\n        with open(CDK_JSON) as json_file:\n            cdk_json = json.load(json_file)\n        app = App()\n        # WHEN\n        stack = S3Stack(\n            app,\n            \"test-s3Bucket-stack\",",
+        "detail": "infrastructure.tests.test_s3bucket_stack",
+        "documentation": {}
+    },
+    {
+        "label": "FOLDER",
+        "kind": 5,
+        "importPath": "infrastructure.tests.test_s3bucket_stack",
+        "description": "infrastructure.tests.test_s3bucket_stack",
+        "peekOfCode": "FOLDER = os.path.abspath(os.path.join(os.path.dirname(__file__), r\"../\"))\nif FOLDER not in sys.path:\n    sys.path.append(FOLDER)\nfrom infrastructure.s3bucket_stack import S3Stack\n# - Defines ------------------------------------------------------------------------------------------------------------\nCDK_JSON = os.path.abspath(\n    os.path.join(os.path.dirname(__file__), r\"../../cdk.json\")\n)\n# - Functions/Classes --------------------------------------------------------------------------------------------------\nclass TestEcrStack(unittest.TestCase):",
+        "detail": "infrastructure.tests.test_s3bucket_stack",
+        "documentation": {}
+    },
+    {
+        "label": "CDK_JSON",
+        "kind": 5,
+        "importPath": "infrastructure.tests.test_s3bucket_stack",
+        "description": "infrastructure.tests.test_s3bucket_stack",
+        "peekOfCode": "CDK_JSON = os.path.abspath(\n    os.path.join(os.path.dirname(__file__), r\"../../cdk.json\")\n)\n# - Functions/Classes --------------------------------------------------------------------------------------------------\nclass TestEcrStack(unittest.TestCase):\n    def test_create_stack_ok(self):\n        # GIVEN\n        with open(CDK_JSON) as json_file:\n            cdk_json = json.load(json_file)\n        app = App()",
+        "detail": "infrastructure.tests.test_s3bucket_stack",
+        "documentation": {}
+    },
+    {
+        "label": "EcrStack",
+        "kind": 6,
+        "importPath": "infrastructure.ecr_stack",
+        "description": "infrastructure.ecr_stack",
+        "peekOfCode": "class EcrStack(Stack):\n    def __init__(\n        self,\n        scope: Construct,\n        id: str,\n        config: dict = None,\n        **kwargs,\n    ) -> None:\n        super().__init__(scope, id, **kwargs)\n        repo = aws_ecr.Repository(self, \"ecr-repo-1\")",
+        "detail": "infrastructure.ecr_stack",
+        "documentation": {}
+    },
+    {
+        "label": "S3Stack",
+        "kind": 6,
+        "importPath": "infrastructure.s3bucket_stack",
+        "description": "infrastructure.s3bucket_stack",
+        "peekOfCode": "class S3Stack(Stack):\n    def __init__(\n        self,\n        scope: Construct,\n        id: str,\n        config: dict = None,\n        **kwargs,\n    ) -> None:\n        super().__init__(scope, id, **kwargs)\n        repo = s3.Bucket(self, \"bucket-cdk-pipeline-project-wu\")",
+        "detail": "infrastructure.s3bucket_stack",
+        "documentation": {}
+    },
+    {
+        "label": "lambda_handler",
+        "kind": 2,
+        "importPath": "lambda_src.example.index",
+        "description": "lambda_src.example.index",
+        "peekOfCode": "def lambda_handler(event, context):\n    numbers = event['numbers']\n    response = json.dumps({\"addition\":sum(numbers[0],numbers[1]), \"multiplication\":multiply(numbers[0],numbers[1])})\n    return {\n        \"statusCode\": 200,\n        \"body\": response,\n    }\ndef sum(a,b):\n    return a+b\ndef multiply(a,b):",
+        "detail": "lambda_src.example.index",
+        "documentation": {}
+    },
+    {
+        "label": "sum",
+        "kind": 2,
+        "importPath": "lambda_src.example.index",
+        "description": "lambda_src.example.index",
+        "peekOfCode": "def sum(a,b):\n    return a+b\ndef multiply(a,b):\n    return a * b",
+        "detail": "lambda_src.example.index",
+        "documentation": {}
+    },
+    {
+        "label": "multiply",
+        "kind": 2,
+        "importPath": "lambda_src.example.index",
+        "description": "lambda_src.example.index",
+        "peekOfCode": "def multiply(a,b):\n    return a * b",
+        "detail": "lambda_src.example.index",
+        "documentation": {}
+    },
+    {
+        "label": "ExampleS3",
+        "kind": 6,
+        "importPath": "lambda_src.example_s3.index",
+        "description": "lambda_src.example_s3.index",
+        "peekOfCode": "class ExampleS3(object):\n    def __init__(self, name, value):\n        self.name = name\n        self.value = value\n    def save(self):\n        s3 = boto3.client('s3', region_name='us-east-1')\n        s3.put_object(Bucket='myS3bucket', Key=self.name, Body=self.value)",
+        "detail": "lambda_src.example_s3.index",
+        "documentation": {}
+    },
+    {
+        "label": "TestStringMethods",
+        "kind": 6,
+        "importPath": "tests.acceptance.dummy_test",
+        "description": "tests.acceptance.dummy_test",
+        "peekOfCode": "class TestStringMethods(unittest.TestCase):\n    def test_upper(self):\n        self.assertEqual('foo'.upper(), 'FOO')",
+        "detail": "tests.acceptance.dummy_test",
+        "documentation": {}
+    },
+    {
+        "label": "TestStringMethods",
+        "kind": 6,
+        "importPath": "tests.integration.dummy_test",
+        "description": "tests.integration.dummy_test",
+        "peekOfCode": "class TestStringMethods(unittest.TestCase):\n    def test_upper(self):\n        self.assertEqual('foo'.upper(), 'FOO')",
+        "detail": "tests.integration.dummy_test",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "app = App()\n# Read the config from cdk.json\nconfig = app.node.try_get_context(\"config\")\naccounts = config.get(\"accounts\")\nregion: str = accounts[\"tooling\"][\"region\"]\ndev_account: str = accounts[\"dev\"][\"account\"]\nqa_account: str = accounts[\"qa\"][\"account\"]\nprod_account: str = accounts[\"prod\"][\"account\"]\n### Bootstrap Role Stacks only to run in the first time. Comment out after creation\n# iam role for pipeline deploy dev enviroment stacks",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "config",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "config = app.node.try_get_context(\"config\")\naccounts = config.get(\"accounts\")\nregion: str = accounts[\"tooling\"][\"region\"]\ndev_account: str = accounts[\"dev\"][\"account\"]\nqa_account: str = accounts[\"qa\"][\"account\"]\nprod_account: str = accounts[\"prod\"][\"account\"]\n### Bootstrap Role Stacks only to run in the first time. Comment out after creation\n# iam role for pipeline deploy dev enviroment stacks\nBootstrapRoleStack(\n    app,",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "accounts",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "accounts = config.get(\"accounts\")\nregion: str = accounts[\"tooling\"][\"region\"]\ndev_account: str = accounts[\"dev\"][\"account\"]\nqa_account: str = accounts[\"qa\"][\"account\"]\nprod_account: str = accounts[\"prod\"][\"account\"]\n### Bootstrap Role Stacks only to run in the first time. Comment out after creation\n# iam role for pipeline deploy dev enviroment stacks\nBootstrapRoleStack(\n    app,\n    \"bootstrap-dev-role-stack\",",
+        "detail": "app",
+        "documentation": {}
+    }
+]
