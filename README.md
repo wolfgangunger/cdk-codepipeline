@@ -4,6 +4,7 @@ https://github.com/wolfgangunger/cdk-codepipeline
 
 see also
 https://www.sccbrasil.com/blog/aws/cdk-pipeline.html
+https://www.sccbrasil.com/blog/aws/cdk-stack-construct.html
 
 ## project strucure
   
