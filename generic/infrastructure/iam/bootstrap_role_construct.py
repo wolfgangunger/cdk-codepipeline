@@ -18,7 +18,7 @@ class BootstrapRole(Construct):
             self,
             id="codebuild-role-from-toolchain-account",
             role_name="codebuild-role-from-toolchain-account",
-            assumed_by=aws_iam.AccountPrincipal("123456789123"),
+            assumed_by=aws_iam.AccountPrincipal("243277030071"),
             # assumed_by=aws_iam.AccountPrincipal(f"{toolchain_account}"),
             description="Role to grant access to stage accounts",
             ### TODO: Change to restricted policy
