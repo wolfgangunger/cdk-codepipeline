@@ -33,11 +33,11 @@ deploy the 3 roles to dev, qa and prod
 #### bootstrap
 bootstrap the toolchain & stage accounts
 with toolchain credentials
-cdk bootstrap   --cloudformation-execution-policies arn:aws:iam::aws:policy/AdministratorAccess  aws://12345678912/us-east-1
+cdk bootstrap   --cloudformation-execution-policies arn:aws:iam::aws:policy/AdministratorAccess  aws://243277030071/sa-east-1
 
 other accounts (dev, int , qa)
 with stage credentials, first account is toolchain , second stage account
-cdk bootstrap --cloudformation-execution-policies arn:aws:iam::aws:policy/AdministratorAccess --trust 12345678912 aws://12345678915/eu-west-1
+cdk bootstrap --cloudformation-execution-policies arn:aws:iam::aws:policy/AdministratorAccess --trust 243277030071 aws://243277030071/sa-east-1
 
 
 
