@@ -21,7 +21,6 @@ tests/acceptance
 tests/integration  
 
 
-
 ## setup project
 ###
 create github app connection in AWS Toolchain Account in the codepipeline
