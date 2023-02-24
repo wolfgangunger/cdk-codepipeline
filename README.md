@@ -6,8 +6,8 @@ see also
 https://www.sccbrasil.com/blog/aws/cdk-pipeline.html  
 https://www.sccbrasil.com/blog/aws/cdk-stack-construct.html  
   
-## project strucure
-  
+## project strucure  
+
 README  
 cdk.json
 requirements.txt  
