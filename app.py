@@ -66,12 +66,12 @@ ProjectPipelineStack(
 
 
 # ## Pipeline Prod
-# ProjectPipelineStack(
-#     app,
-#     "cdk-pipeline-prod",
-#     development_pipeline=False,
-#     env=accounts.get("tooling"),
-#     config={**config},
-# )
+ProjectPipelineStack(
+    app,
+    "cdk-pipeline-prod",
+    development_pipeline=False,
+    env=accounts.get("tooling"),
+    config={**config},
+)
 
 app.synth()
