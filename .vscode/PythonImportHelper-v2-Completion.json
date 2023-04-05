@@ -740,33 +740,6 @@
     {
         "label": "lambda_handler",
         "kind": 2,
-        "importPath": "cdk.out.asset.2b012a7ba56f375a158e3c6bf06061a5eda391e2ac2d4d0145b285f61c3aaf68.index",
-        "description": "cdk.out.asset.2b012a7ba56f375a158e3c6bf06061a5eda391e2ac2d4d0145b285f61c3aaf68.index",
-        "peekOfCode": "def lambda_handler(event, context):\n    numbers = event['numbers']\n    response = json.dumps({\"addition\":sum(numbers[0],numbers[1]), \"multiplication\":multiply(numbers[0],numbers[1])})\n    return {\n        \"statusCode\": 200,\n        \"body\": response,\n    }\ndef sum(a,b):\n    return a+b\ndef multiply(a,b):",
-        "detail": "cdk.out.asset.2b012a7ba56f375a158e3c6bf06061a5eda391e2ac2d4d0145b285f61c3aaf68.index",
-        "documentation": {}
-    },
-    {
-        "label": "sum",
-        "kind": 2,
-        "importPath": "cdk.out.asset.2b012a7ba56f375a158e3c6bf06061a5eda391e2ac2d4d0145b285f61c3aaf68.index",
-        "description": "cdk.out.asset.2b012a7ba56f375a158e3c6bf06061a5eda391e2ac2d4d0145b285f61c3aaf68.index",
-        "peekOfCode": "def sum(a,b):\n    return a+b\ndef multiply(a,b):\n    return a * b",
-        "detail": "cdk.out.asset.2b012a7ba56f375a158e3c6bf06061a5eda391e2ac2d4d0145b285f61c3aaf68.index",
-        "documentation": {}
-    },
-    {
-        "label": "multiply",
-        "kind": 2,
-        "importPath": "cdk.out.asset.2b012a7ba56f375a158e3c6bf06061a5eda391e2ac2d4d0145b285f61c3aaf68.index",
-        "description": "cdk.out.asset.2b012a7ba56f375a158e3c6bf06061a5eda391e2ac2d4d0145b285f61c3aaf68.index",
-        "peekOfCode": "def multiply(a,b):\n    return a * b",
-        "detail": "cdk.out.asset.2b012a7ba56f375a158e3c6bf06061a5eda391e2ac2d4d0145b285f61c3aaf68.index",
-        "documentation": {}
-    },
-    {
-        "label": "lambda_handler",
-        "kind": 2,
         "importPath": "cdk.out.asset.b1e8b46c77d863d43b44c10ffc81b7fb143ac10a46aa79df63e08a5c26ca9266.index",
         "description": "cdk.out.asset.b1e8b46c77d863d43b44c10ffc81b7fb143ac10a46aa79df63e08a5c26ca9266.index",
         "peekOfCode": "def lambda_handler(event, context):\n    numbers = event['numbers']\n    response = json.dumps({\"addition\":sum(numbers[0],numbers[1]), \"multiplication\":multiply(numbers[0],numbers[1])})\n    return {\n        \"statusCode\": 200,\n        \"body\": response,\n    }\ndef sum(a,b):\n    return a+b\ndef multiply(a,b):",
@@ -886,7 +859,7 @@
         "kind": 6,
         "importPath": "infrastructure.cicd.app_deploy",
         "description": "infrastructure.cicd.app_deploy",
-        "peekOfCode": "class AppDeploy(Stage):\n    def __init__(self, scope: Construct, id: str, config: dict = None, **kwargs):\n        super().__init__(scope, id, **kwargs)\n        # s3 bucket Stack Example\n        s3bucket = S3Stack(self, \"S3Stack\", config=config)\n        # put stage id into configuration object for use in JobDefStack\n        config[\"stage\"] = id\n        # Job Definition Example\n        jobdefs = JobDefsStack(\n            self,",
+        "peekOfCode": "class AppDeploy(Stage):\n    def __init__(self, scope: Construct, id: str, config: dict = None, **kwargs):\n        super().__init__(scope, id, **kwargs)\n        # s3 bucket Stack Example\n        s3bucket = S3Stack(self, \"S3Stack\", config=config)\n        # put stage id into configuration object for use in JobDefStack\n        config[\"stage\"] = id\n        # Job Definition Example ...\n        jobdefs = JobDefsStack(\n            self,",
         "detail": "infrastructure.cicd.app_deploy",
         "documentation": {}
     },
