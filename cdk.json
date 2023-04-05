@@ -31,28 +31,28 @@
     "config": {
       "accounts": {
         "tooling": {
-          "account": "243277030071",
+          "account": "24xx",
           "region": "sa-east-1"
         },
         "dev": {
-          "account": "243277030071",
+          "account": "24xx",
           "region": "sa-east-1"
         },
         "qa": {
-          "account": "243277030071",
+          "account": "24xx",
           "region": "sa-east-1"
         },
         "prod": {
-          "account": "243277030071",
+          "account": "24xx",
           "region": "sa-east-1"
         }
       },
-      "internet_vpc": "vpc-041e5047c0f198439",
+      "internet_vpc": "vpc-xx",
       "development_branch": "main",
       "production_branch": "main",
       "owner": "wolfgangunger",
       "repo": "cdk-codepipeline",
-      "connection_arn": "arn:aws:codestar-connections:sa-east-1:243277030071:connection/2a55fd26-b670-4837-8c29-1c407761da44"
+      "connection_arn": "arn:aws:codestar-connections:sa-east-1:243277030071:connection/2a55ddxxx"
     }
   }
 }
