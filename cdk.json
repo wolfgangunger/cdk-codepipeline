@@ -52,7 +52,7 @@
       "production_branch": "main",
       "owner": "wolfgangunger",
       "repo": "cdk-codepipeline",
-      "connection_arn": "arn:aws:codestar-connections:sa-east-1:243277030071:connection/2a55ddxxx"
+      "connection_arn": "arn:aws:codestar-connections:sa-east-1:xxx:connection/2a55ddxxx"
     }
   }
 }
