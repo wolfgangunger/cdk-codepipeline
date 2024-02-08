@@ -1,5 +1,5 @@
 pytest==6.2.5
 pytest-cov
 boto3
-moto
+moto==4.2.3
 pytest
