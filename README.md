@@ -6,6 +6,14 @@ see also
 https://www.sccbrasil.com/blog/aws/cdk-pipeline.html  
 https://www.sccbrasil.com/blog/aws/cdk-stack-construct.html  
   
+you can test the project also in just one account.  
+in this case your toolchain account and one stage account will be in the same account.  
+define in the cdk.json for all 4 accounts the same account.  
+You should only test with the Prod Pipeline in this scenario, it will only deploy to one account ( which can be the same as your toolchain account)  
+If you want to test with Dev/QA Pipeline:  
+The dev/qa pipeline is supposed to deploy to 2 different accounts, if both account numbers are equal, don't confirm the manual  
+approval step for QA after deploying Dev. This wouldn't work.  
+  
 ## project strucure  
 
 README  
